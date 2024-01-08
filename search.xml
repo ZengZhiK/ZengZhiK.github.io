@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>博主文章导航（分门别类，实时更新，永久置顶）</title>
+    <url>/2024/01/07/%E5%8D%9A%E4%B8%BB%E6%96%87%E7%AB%A0%E5%AF%BC%E8%88%AA%EF%BC%88%E5%88%86%E9%97%A8%E5%88%AB%E7%B1%BB%EF%BC%8C%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%8C%E6%B0%B8%E4%B9%85%E7%BD%AE%E9%A1%B6%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="博主文章导航（分门别类，实时更新，永久置顶）"><a href="#博主文章导航（分门别类，实时更新，永久置顶）" class="headerlink" title="博主文章导航（分门别类，实时更新，永久置顶）"></a>博主文章导航（分门别类，实时更新，永久置顶）</h2><span id="more"></span>
+
+<h2 id="1、双目立体匹配"><a href="#1、双目立体匹配" class="headerlink" title="1、双目立体匹配"></a>1、双目立体匹配</h2><ul>
+<li><a href="../%E5%8F%8C%E7%9B%AE%E7%AB%8B%E4%BD%93%E5%8C%B9%E9%85%8D%E5%8D%9A%E5%AE%A2&%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB">双目立体匹配博客&amp;资料汇总</a></li>
+</ul>
+<blockquote>
+<p>写在最后，此标题致敬李博，李博的博客给我这个职场菜鸟带来很多指导，感谢李博！</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>双目立体匹配博客&amp;资料汇总</title>
+    <url>/2024/01/07/%E5%8F%8C%E7%9B%AE%E7%AB%8B%E4%BD%93%E5%8C%B9%E9%85%8D%E5%8D%9A%E5%AE%A2&amp;%E8%B5%84%E6%96%99%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<h2 id="双目立体匹配博客-资料汇总"><a href="#双目立体匹配博客-资料汇总" class="headerlink" title="双目立体匹配博客&amp;资料汇总"></a>双目立体匹配博客&amp;资料汇总</h2><blockquote>
+<p>网上对于双目立体匹配算法的学习资料有很多，本文旨在汇总网上优质的资源，并总结学习路线，从传统的SGM、PatchMatch、AD-Census，到近年来的各种深度学习双目立体匹配网络，双目立体匹配算法不断升级，并且一直是学术界研究的热门，值得探索！</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="1、基础理论"><a href="#1、基础理论" class="headerlink" title="1、基础理论"></a>1、基础理论</h2><blockquote>
+<p>双目立体匹配有以下几个关键问题：</p>
+<ul>
+<li>一是如何对双目设备进行标定，只要标定后进行图像极线矫正，才能成为一个理想的双目系统；</li>
+<li>二是立体匹配算法，经典的传统立体匹配算法有SGM、PatchMatch和AD-Census，深度学习目前比较火的网络是RAFT-Stereo及其升级版本（例如CREStereo、IGEV等）；</li>
+<li>三是如何计算深度、如何生成点云，如果你看懂了前两步，那么这一步的公式应当手到擒来，当然，也会有一些特殊的情况，例如鱼眼双目，其公式的推导会很不一样。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>如果你刚开始接触双目立体匹配算法，那么一定要看看李迎松博士的文章，你将会非常有收获，李博的csdn主页：<a href="https://ethanli.blog.csdn.net/?type=blog">link</a></p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/106708643?spm=1001.2014.3001.5502">博主文章导航（分门别类，实时更新，永久置顶）</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/83302323?spm=1001.2014.3001.5502">双目立体匹配步骤详解</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/113248118">立体视觉入门指南（1）：坐标系与相机参数</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/113854675?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165899285716782395341789%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165899285716782395341789&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-113854675-null-null.142%5Ev35%5Eexperiment_2_v1&utm_term=Ethan%20Li%20%E6%9D%8E%E8%BF%8E%E6%9D%BE&spm=1018.2226.3001.4449">立体视觉入门指南（2）：关键矩阵（本质矩阵，基础矩阵，单应矩阵）</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/116332989?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165899755916781818734517%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165899755916781818734517&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-4-116332989-null-null.142%5Ev35%5Eexperiment_2_v1&utm_term=Ethan%20Li%20%E6%9D%8E%E8%BF%8E%E6%9D%BE&spm=1018.2226.3001.4449">立体视觉入门指南（3）：相机标定之张式标定法</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/117594660?ops_request_misc=&request_id=&biz_id=102&utm_term=Ethan%20Li%20%E6%9D%8E%E8%BF%8E%E6%9D%BE&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-9-117594660.nonecase&spm=1018.2226.3001.4449">立体视觉入门指南（4）：相机标定之DLT直接线性变换</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/118661215?ops_request_misc=&request_id=&biz_id=102&utm_term=Ethan%20Li%20%E6%9D%8E%E8%BF%8E%E6%9D%BE&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-2-118661215.nonecase&spm=1018.2226.3001.4449">立体视觉入门指南（5）：双相机标定</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/119837782?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165899755916781818734517%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165899755916781818734517&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-119837782-null-null.142%5Ev35%5Eexperiment_2_v1&utm_term=Ethan%20Li%20%E6%9D%8E%E8%BF%8E%E6%9D%BE&spm=1018.2226.3001.4449">立体视觉入门指南（6）：对级约束与Fusiello法极线校正</a><ul>
+<li><a href="https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/FUSIELLO2/rectif_cvol.html">https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/FUSIELLO2/rectif_cvol.html</a></li>
+</ul>
+</li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/122894732">立体视觉入门指南（7）：立体匹配</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/125017920">立体匹配入门指南（8）：视差图、深度图、点云</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>另一个非常经典的资料是Stefano教授的经典讲义 Stereo Vision: Algorithms and Applications</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li>教授的个人主页：<a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">link</a></li>
+<li><a href="http://www.vision.deis.unibo.it/smatt/Seminars/StereoVision.pdf">Stereo Vision: Algorithms and Applications</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>还有一位csdn博主，火柴的初心，也写了非常多好文章：<a href="https://blog.csdn.net/He3he3he?type=blog">link</a></p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/101053457">（一）双目视觉系统</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/101148558">（二）双目匹配的困难和评判标准</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/101162766">（三）立体匹配算法</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/103564738">（四）匹配代价</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/103599445">（五）立体匹配算法之动态规划全局匹配</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/105293258">（六）U-V视差</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/105542815">【项目实战】利用Ｕ-V视差进行地面检测</a></li>
+<li><a href="https://blog.csdn.net/He3he3he/article/details/105711179">【项目实践】U-V视差路面检测之动态规划</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>还有旷视大佬HawkWang写的一系列《计算摄影学》博客，每篇都写的很好，并且还在保持更新，这里仅列出双目立体视觉的部分：</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://www.zhihu.com/column/hawkcp">计算摄影学</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/570452119">计算摄影学专栏总目录</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/458000359">66. 三维重建1：相机几何模型和投影矩阵</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/462757273">67. 三维重建2：相机几何参数标定</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/463289634">68. 三维重建3：两视图几何</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/466365225">69. 三维重建4：立体校正(Recitification)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/482877544">70. 三维重建5-立体匹配1：立体匹配原理</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/484403946">71. 三维重建6-立体匹配2：代价聚合</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/504366801">72. 三维重建7-立体匹配3：视差计算和优化</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/505603609">73. 三维重建8-立体匹配4：视差后处理</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/512864084">74. 三维重建9-立体匹配5：解析MiddleBurry立体匹配数据集</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/521777576">75. 三维重建10-立体匹配6：解析KITTI立体匹配数据集</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/529400110">76. 三维重建11-立体匹配7：解析合成数据集和工具</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/553518766">77. 三维重建12-立体匹配8，经典算法ADCensus</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/562577568">78. 三维重建13-立体匹配9，经典算法PatchMatchStereo</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/574007208">79. 三维重建14-立体匹配10，经典视差优化算法Fast Bilateral-Space Stereo</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/594121027">80. 三维重建15-立体匹配11，经典算法Fast Bilateral Solver</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/616778060">81. 三维重建16-立体匹配12，深度学习立体匹配之 MC-CNN</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/619713376">82. 三维重建17-立体匹配13，深度学习立体匹配的基本网络结构和变种</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/631408871">83. 三维重建18-立体匹配14，端到端立体匹配深度学习网络之特征计算</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/646192961">84. 三维重建19-立体匹配15，端到端立体匹配深度学习网络之代价体的计算和正则化</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/652639620">85. 三维重建20-立体匹配16，端到端立体匹配深度学习网络之视差计算</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/659225714">86. 三维重建21-立体匹配17，端到端立体匹配深度学习网络之如何获得高分辨率的视差图</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>其它一些博客</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://www.zhihu.com/question/317277165">立体匹配算法的四个步骤中的代价聚合该如何理解？</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/wsj998689aa/article/details/49464017">Stereo Matching文献笔记之（九）：经典算法Semi-Global Matching（SGM）之神奇的HMI代价计算</a></li>
+<li><a href="https://blog.csdn.net/wsj998689aa/article/details/50488249">Stereo Matching文献笔记之（十）：经典算法Semi-Global Matching（SGM）之碉堡的动态规划</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://zhuanlan.zhihu.com/p/49272032">一文读懂经典双目稠密匹配算法SGM</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/dulingwen/article/details/104142149">双目立体匹配算法：SGM</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<h2 id="2、SGM（Semi-Global-Matching）算法"><a href="#2、SGM（Semi-Global-Matching）算法" class="headerlink" title="2、SGM（Semi-Global Matching）算法"></a>2、SGM（Semi-Global Matching）算法</h2><blockquote>
+<p>SGM算法绝对是双目立体匹配算法中最流行的算法，没有之一。非常推荐看李博的文章及其代码实现：</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/83547485">【理论恒叨】【立体匹配系列】经典SGM：（1）匹配代价计算之互信息（MI）</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/83614915">【理论恒叨】【立体匹配系列】经典SGM：（2）匹配代价计算之Census变换</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/83754473">【理论恒叨】【立体匹配系列】经典SGM：（3）代价聚合（Cost Aggregation）</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/84305717">【理论恒叨】【立体匹配系列】经典SGM：（4）视差计算、视差优化</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/105065660">【码上实战】【立体匹配系列】经典SGM：（1）框架与类设计</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/105142484">【码上实战】【立体匹配系列】经典SGM：（2）代价计算</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/105316274">【码上实战】【立体匹配系列】经典SGM：（3）代价聚合</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/105396761">【码上实战】【立体匹配系列】经典SGM：（4）代价聚合2</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/105715526">【码上实战】【立体匹配系列】经典SGM：（5）视差优化</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/105897391">【码上实战】【立体匹配系列】经典SGM：（6）视差填充</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/106168040">【码上实战】【立体匹配系列】经典SGM：（7）弱纹理优化</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>另一个你需要看的是OpenCV实现的SGBM（Semi-Global Block Matching），李博实现的SGM代价空间的构建方式采用了Census，OpenCV则是采用了BT+SAD，并且除了使用输入图像的像素值计算代价，还使用了梯度计算代价，其中每一个参数都值得了解，在此放两篇源码分析。</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/jin739738709/article/details/124145268">【算法】OpenCV-SGBM算法及源码的简明分析</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/53060518">OpenCV源代码分析——SGBM</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>还有值得一提的是，可能大家很好奇SGM和SGBM是一个意思吗？曾经我也很好奇，基于我目前的理解，这不是一个意思。SGM看论文就知道，其构建代价空间的方法采用的是互信息，但这个方法在目前实现的算法中已经鲜有使用了，SGBM可以看成是SGM的改进，改进的方式就是将代价空间的构建方式改成了块匹配，块匹配的方式有很多，比如上面提到的Census、SAD、BT等等，这样做的好处在于简化了算法，并且能让算法真正的落地，目前商业化的消费级双目产品基本都是算力有限的，需要能够高度并行的算法。</p>
+</blockquote>
+<h2 id="3、PatchMatch理论"><a href="#3、PatchMatch理论" class="headerlink" title="3、PatchMatch理论"></a>3、PatchMatch理论</h2><blockquote>
+<p>PatchMatch算法是另一个非常优秀的传统算法，这个算法我的理解，全靠猜，首先来个随机初始化，然后空间传播、视图传播、平面优化，都是猜测支持窗更新后，代价有没有降低，如果有，那么就更新支持窗，否则不更新，最后通过多次迭代，计算出视差。算法很大的创新就是提出来倾斜支持窗模型，不使用构建代价空间、代价聚合、视差计算、视差优化这套框架，在平面倾斜非常大的图片上（例如贴近地面拍摄）有很好的效果，但一般的场景还是SGM效果更好，而且PatchMatch的计算量非常大，导致原版实现非常慢，所以商业化的消费级双目产品基本都没有采用。较好的方案，是使用cuda进行加速。</p>
+<p>这里同样推荐李博的博客：</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/106292615">【理论恒叨】【立体匹配系列】经典PatchMatch: （1）Slanted support windows倾斜支持窗模型</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/106595305">【理论恒叨】【立体匹配系列】经典PatchMatch: （2）基于PatchMatch的视差估计</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/106698447">【理论恒叨】【立体匹配系列】经典PatchMatch: （3）后处理（一致性检查与视差填充）</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107192399">【码上实战】【立体匹配系列】经典PatchMatch: （1）框架</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107251788">【码上实战】【立体匹配系列】经典PatchMatch: （2）主类</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107271430">【码上实战】【立体匹配系列】经典PatchMatch: （3）随机初始化</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107418804">【码上实战】【立体匹配系列】经典PatchMatch: （4）代价计算</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107436340">【码上实战】【立体匹配系列】经典PatchMatch: （5）迭代传播</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107549278">【码上实战】【立体匹配系列】经典PatchMatch: （6）后处理</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li>另外一些实现</li>
+<li><a href="https://github.com/ibergonzani/patch-match-stereo">https://github.com/ibergonzani/patch-match-stereo</a></li>
+<li><a href="https://blog.csdn.net/weixin_44492024/article/details/102495398?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-102495398-blog-107436340.t0_layer_eslanding_s&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-2-102495398-blog-107436340.t0_layer_eslanding_s&utm_relevant_index=3">Patch Match Stereo文献+代码</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<h2 id="4、AD-Census算法"><a href="#4、AD-Census算法" class="headerlink" title="4、AD-Census算法"></a>4、AD-Census算法</h2><blockquote>
+<p>AD-Census算法可以说是SGM的改进，而且是中国学者提出的，从名字可以看出，相比于SGM，构建代价空间的方式采用了AD+Census，并且比SGM增加了十字臂的代价聚合方式，Intel RealSense系列双目相机引用了该论文，应该有参考其实现</p>
+<p>这里同样推荐李博的博客：</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107743719">【理论恒叨】【立体匹配系列】经典AD-Census: （1）代价计算_匹配代价计算-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107804210">【理论恒叨】【立体匹配系列】经典AD-Census: （2）十字交叉域代价聚合（Cross-based Cost Aggregation）-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107825411">【理论恒叨】【立体匹配系列】经典AD-Census: （3）扫描线优化（Scanline Optimization）-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/107922958">【理论恒叨】【立体匹配系列】经典AD-Census: （4）多步骤视差优化_立体匹配数据集怎么判断哪些是遮挡区域-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/108242792">【码上实战】【立体匹配系列】经典AD-Census: （1）框架-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/108542837">【码上实战】【立体匹配系列】经典AD-Census: （2）主类_adcensus算法matlab代码-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/108610041">【码上实战】【立体匹配系列】经典AD-Census: （3）代价计算-CSDN博客</a></li>
+<li><a href="https://blog.csdn.net/rs_lys/article/details/108876143">【码上实战】【立体匹配系列】经典AD-Census: （4）十字交叉域代价聚合-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/108960778">【码上实战】【立体匹配系列】经典AD-Census: （5）扫描线优化_李迎松 gpu 线扫描-CSDN博客</a></li>
+<li><a href="https://ethanli.blog.csdn.net/article/details/109479936">【码上实战】【立体匹配系列】经典AD-Census: （6）多步骤视差优化_视差图优化-CSDN博客</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<h2 id="5、其他传统算法"><a href="#5、其他传统算法" class="headerlink" title="5、其他传统算法"></a>5、其他传统算法</h2><blockquote>
+<p>ELAS算法在MiddleBurry数据集有提到，但学习资料很少</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><a href="https://blog.csdn.net/dulingwen/article/details/104128503">双目立体匹配算法：ELAS</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<h2 id="6、深度学习算法"><a href="#6、深度学习算法" class="headerlink" title="6、深度学习算法"></a>6、深度学习算法</h2><blockquote>
+<p>深度学习是目前双目立体匹配算法的发展方向，也是目前学术界热门，但目前商业化落地的产品很少，主要原因是算力限制，能真正在芯片上运行的网络非常少，虽然深度学习在各种数据集的指标上远胜于传统算法，但实际应用还是有很多挑战。</p>
+<p>其实深度学习并不复杂，自2016年DispNet诞生，端到端的立体匹配网络正式提出，很多网络都是将传统的立体匹配算法的四部分：构建代价空间、代价聚合、视差计算、视差优化改变成网络的方式实现，只不过每个网络都有作者的创新点进行改进。到2019年，RAFT提出，带来了颠覆性的突破，通过引入GRU和Convex-Upsample等模块，以及迭代优化的思想，取得了非常好的效果，目前RAFT和基于RAFT的改版，例如CREStereo、IGEV在MiddleBurry都是名列前茅的，但这种多次迭代的结构在芯片端运行确实是个灾难。</p>
+<p>下面也推荐一些深度学习方面的学习资料：</p>
+</blockquote>
+<ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li>首先，最推荐的是2023年底开源的OpenStereo，这个项目并没有提出新网络，而是整合了12个非常经典的双目网络，每一个都值得学习</li>
+<li><a href="https://github.com/XiandaGuo/OpenStereo">https://github.com/XiandaGuo/OpenStereo</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/673803996">https://zhuanlan.zhihu.com/p/673803996</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li>其次，推荐的是AANet和UniMatch，这两个网络虽然不是目前的SOTA，但作者写的代码非常非常优秀，AANet也整合了很多框架，b站还有作者的分享，我自己在实现双目网络的过程中也经常会查看作者的代码</li>
+<li><a href="https://github.com/haofeixu/aanet">https://github.com/haofeixu/aanet</a></li>
+<li><a href="https://github.com/autonomousvision/unimatch">https://github.com/autonomousvision/unimatch</a></li>
+<li><a href="https://www.bilibili.com/video/BV1uG4y1y7ms/?spm_id_from=333.337.search-card.all.click&vd_source=155fbadf1d1c2c3435ad2f8747f48d24">https://www.bilibili.com/video/BV1uG4y1y7ms/?spm_id_from&#x3D;333.337.search-card.all.click&amp;vd_source&#x3D;155fbadf1d1c2c3435ad2f8747f48d24</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li>还有就是paperswithcode这个神奇的网站，最新的研究成果都能找到，每个网络对应的论文和GitHub代码都有，非常方便</li>
+<li><a href="https://paperswithcode.com/task/stereo-matching-1/latest">https://paperswithcode.com/task/stereo-matching-1/latest</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<h2 id="7、数据集网站"><a href="#7、数据集网站" class="headerlink" title="7、数据集网站"></a>7、数据集网站</h2><ul>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>SenceFlow：第一个大规模的虚拟数据集，也是现在深度学习论文必用的数据集</strong></li>
+<li><a href="https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html">https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>MiddleBurry：真实数据集，采用结构光制作真值，每张都非常经典，网站有算法的排名，论文常用</strong></li>
+<li><a href="https://vision.middlebury.edu/stereo/">https://vision.middlebury.edu/stereo</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>KITTI：真实数据集，采用车载激光雷达制作真值，所以是稀疏的，网站有算法的排名，论文常用</strong></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/index.php">http://www.cvlibs.net/datasets/kitti/index.php</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>ETH3D：真实数据集，除了有双目数据，还有多视角数据，论文常用</strong></li>
+<li><a href="https://www.eth3d.net/">https://www.eth3d.net/</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>DrivingStereo：真实数据集，为自动驾驶打造，论文常用</strong></li>
+<li><a href="https://drivingstereo-dataset.github.io/">https://drivingstereo-dataset.github.io/</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>CREStereo：虚拟数据集，旷视团队制作</strong></li>
+<li><a href="https://github.com/megvii-research/CREStereo">https://github.com/megvii-research/CREStereo</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>InStereo2K：真实数据集，采用结构光制作真值，室内场景数据</strong></li>
+<li><a href="https://github.com/YuhuaXu/StereoDataset">https://github.com/YuhuaXu/StereoDataset</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>Holopix50k：超级大的数据集，各种场景的双目数据都有，但没有真值</strong></li>
+<li><a href="https://leiainc.github.io/holopix50k/">https://leiainc.github.io/holopix50k/</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>SintelStereo：虚拟数据集，开源动画短片，光流数据集</strong></li>
+<li><a href="http://sintel.is.tue.mpg.de/stereo">http://sintel.is.tue.mpg.de/stereo</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>syntim：虚拟数据集，无真值</strong></li>
+<li><a href="http://perso.lcpc.fr/tarel.jean-philippe/syntim/paires.html">http://perso.lcpc.fr/tarel.jean-philippe/syntim/paires.html</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>Stereo Vision and Applications：</strong></li>
+<li><a href="http://vision.deis.unibo.it/~smatt/stereo.htm#SMP">http://vision.deis.unibo.it/~smatt&#x2F;stereo.htm</a></li>
+<li><a href="http://vision.deis.unibo.it/~smatt/stereo_smp.html">http://vision.deis.unibo.it/~smatt&#x2F;stereo_smp.html</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+<li><strong>慕尼黑工业大学数据：</strong></li>
+<li><a href="https://vision.in.tum.de/data/datasets">https://vision.in.tum.de/data/datasets</a></li>
+<li>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</li>
+</ul>
+<blockquote>
+<p>写在最后：网上关于双目立体匹配算法的文章非常多，本文总结的只是冰山一角，我只是大自然的搬运工，希望对大家有所帮助，我会保持更新的~</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>双目立体匹配</category>
+      </categories>
+      <tags>
+        <tag>双目立体匹配</tag>
+      </tags>
+  </entry>
+</search>
